@@ -8,6 +8,4 @@ import User from "./models/user.model";
     await Server.configure();
     await Server.start();
 
-    let usr = await User.find();
-
 })()
