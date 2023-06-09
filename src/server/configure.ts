@@ -37,8 +37,8 @@ export default async function configure(app : Express.Application){
     }
     catch(e:any){
         // Show error and return false
-        console.error( "[X] " + e.message )
-        return false;
+        console.error( "[X] " + e.message );
+        throw e;
     }
 
 }
