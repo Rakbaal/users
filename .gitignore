@@ -1,4 +1,5 @@
 dist
 node_modules
 config/*.json
+!config/custom-environment-variables.json
 !config/default.json

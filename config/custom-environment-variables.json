@@ -1,0 +1,16 @@
+{
+    "server": {
+        "listen": "SERVER_LISTEN",
+        "port": "SERVER_PORT"
+    },
+    "auth": {
+        "secret": "AUTH_SECRET"
+    },
+    "db": {
+        "host": "DB_HOST",
+        "port": "DB_PORT",
+        "user": "DB_USER",
+        "pass": "DB_PASS",
+        "data": "DB_DATA"
+    }
+}
