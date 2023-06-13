@@ -2,8 +2,6 @@ import config from "config";
 import { DataSource } from "typeorm";
 
 import User from "../models/user.model";
-import Thread from "../models/thread.model";
-import Post from "../models/post.model";
 
 const database = new DataSource({
     type: "mariadb",
@@ -15,8 +13,6 @@ const database = new DataSource({
     synchronize: true,
     entities: [
         User,
-        Post,
-        Thread
     ]
 })
 

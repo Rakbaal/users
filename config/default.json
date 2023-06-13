@@ -7,10 +7,10 @@
         "secret": "changeme"
     },
     "db": {
-        "host": "localhost",
+        "host": "test-1.c3fguvtj8c2i.us-east-1.rds.amazonaws.com",
         "port": 3306,
         "user": "admin",
-        "pass": "adminadmin",
+        "pass": "Ragnarok0",
         "data": "FORUM"
     }
 }
